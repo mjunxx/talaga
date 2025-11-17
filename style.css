@@ -407,3 +407,63 @@ span {
   display: flex;
   flex-direction: column-reverse;
 }
+
+/* Bottom Navigation Buttons */
+.page-buttons {
+  width: 100%;
+  position: relative;
+  margin-top: 50px; /* creates space after all education content */
+}
+
+.prev-btn, .next-btn {
+  position: fixed;
+  bottom: 30px;
+  padding: 12px 25px;
+  background: #333;
+  color: white;
+  font-size: 18px;
+  border-radius: 6px;
+  text-decoration: none;
+  transition: 0.3s;
+  z-index: 9999;
+}
+
+.prev-btn {
+  left: 30px;   /* Lower-left corner */
+}
+
+.next-btn {
+  right: 30px;  /* Lower-right corner */
+}
+
+.prev-btn:hover,
+.next-btn:hover {
+  background: #555;
+}
+
+/* Fixed Previous & Next Buttons */
+.prev-btn, .next-btn {
+  position: fixed;
+  bottom: 30px;
+  padding: 12px 25px;
+  background: #333;
+  color: white;
+  font-size: 18px;
+  border-radius: 6px;
+  text-decoration: none;
+  transition: 0.3s;
+  z-index: 9999;
+}
+
+.prev-btn:hover,
+.next-btn:hover {
+  background: #555;
+}
+
+.prev-btn {
+  left: 30px;       /* bottom-left corner */
+}
+
+.next-btn {
+  right: 30px;      /* bottom-right corner */
+}
