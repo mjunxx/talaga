@@ -106,7 +106,7 @@ nav a.active {
 
 /* EDUCATION CARDS */
 .edu-card {
-  background: rgba(255, 255, 255, 0.95);
+  background: rgba(0, 0, 0, 0.486);
   border-radius: 12px;
   padding: 1.5rem;
   text-align: center;
@@ -305,4 +305,5 @@ nav a.active {
   .next-btn {
     right: 15px;
   }
+
 }
