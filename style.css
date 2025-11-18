@@ -467,3 +467,93 @@ span {
 .next-btn {
   right: 30px;      /* bottom-right corner */
 }
+
+/* EDUCATION SECTION */
+.education-section {
+  padding: 60px 5%;
+  background: #f8f8f8;
+}
+
+.education-section .heading {
+  text-align: center;
+  font-size: 2.5rem;
+  margin-bottom: 30px;
+}
+
+.education-section .heading span {
+  color: #0a84ff;
+}
+
+/* CONTAINER GRID */
+.edu-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
+  gap: 20px;
+}
+
+/* EDUCATION CARDS */
+.edu-card {
+  background: #fff;
+  border-radius: 12px;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+  transition: 0.3s;
+  border: 1px solid #eaeaea;
+}
+
+.edu-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.12);
+}
+
+/* CARD IMAGE */
+.edu-card img {
+  width: 100%;
+  height: 160px;
+  object-fit: cover;
+  border-radius: 10px;
+  margin-bottom: 15px;
+}
+
+/* TEXT STYLING */
+.edu-card h3 {
+  font-size: 1.4rem;
+  color: #0a84ff;
+  margin-bottom: 5px;
+}
+
+.edu-card h4 {
+  font-size: 1rem;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.edu-card p {
+  font-size: 0.95rem;
+  color: #555;
+  line-height: 1.5;
+}
+
+/* NAV BUTTONS */
+.prev-btn, .next-btn {
+  position: fixed;
+  bottom: 25px;
+  padding: 10px 18px;
+  background: #0a84ff;
+  color: #fff;
+  border-radius: 8px;
+  text-decoration: none;
+}
+
+.prev-btn {
+  left: 20px;
+}
+
+.next-btn {
+  right: 20px;
+}
+
+.prev-btn:hover, .next-btn:hover {
+  background: #066cd6;
+}
